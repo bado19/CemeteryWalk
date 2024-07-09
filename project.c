@@ -2013,7 +2013,7 @@ void display(){
          //skullwall();
 
          tombstone(0.2,0,1.1 ,0.01,0.04,0.025 , 1,6);
-         for(double loc= 20; loc>-20; loc-=8){
+         for(double loc= 20; loc>-20; loc-=1){
             for(double locx= -24; locx<24; locx+=6)
             if(locx!=0){
             tree(locx,0.5,loc,2,2,2,0,1);
